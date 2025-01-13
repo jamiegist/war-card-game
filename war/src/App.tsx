@@ -1,13 +1,8 @@
-import { useState } from 'react';
 import './App.css';
-import Gameboard from './Gameboard';
-
+import Gameboard from './components/Gameboard';
 
 function App() {
-
-  return (
-    <h1>War</h1>
-  );
+  <Gameboard />
 }
 
 export default App;

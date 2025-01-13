@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Deck from './Deck';
+import Deck from '../Deck';
 import Player from './Player';
 
-function Gameboard() {
+export default function Gameboard() {
     const [player1Hand, setPlayer1Hand] = useState([]);
     const [player2Hand, setPlayer2Hand] = useState([]);
 
