@@ -19,8 +19,6 @@ function Gameboard() {
         }
     }
 
-    // Dealing cards
-
     // Comparing cards
 
     return (
@@ -30,5 +28,5 @@ function Gameboard() {
 
             <button>Draw</button>
         </div>
-    )
+    );
 }

@@ -1,9 +1,11 @@
+import Deck from "./Deck";
+
 function Player({ hand }) {
+    // Dealing cards
+
     return (
         <div className="player">
-            {hand.map((card) => (
-                <Card key={card.id} rank={card.rank} suit={card.suit} />
-            ))}
+            
         </div>
     );
 }

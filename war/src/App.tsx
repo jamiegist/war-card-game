@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
+import Gameboard from './Gameboard';
 
 
 function App() {
 
-  const [deck, newDeck] = useState(cards)
-
   return (
     <h1>War</h1>
-
   );
 }
 
